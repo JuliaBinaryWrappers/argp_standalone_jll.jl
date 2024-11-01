@@ -1,47 +1,135 @@
 [[argp_standalone]]
 arch = "aarch64"
-git-tree-sha1 = "f3509d1aba402f64bc02f41c9cdbed037d64d8e8"
+git-tree-sha1 = "2efa6b5f293eb27172235406d070dba803a2fad2"
+os = "macos"
+
+    [[argp_standalone.download]]
+    sha256 = "7374d00dea61bd9263eb0aa5c691631c55b9de166b0e8dbce892a1e625c17e3d"
+    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+1/argp_standalone.v1.3.1.aarch64-apple-darwin.tar.gz"
+[[argp_standalone]]
+arch = "aarch64"
+git-tree-sha1 = "6901ecf838edbdd6d9a99545f5de490980754a41"
+libc = "glibc"
+os = "linux"
+
+    [[argp_standalone.download]]
+    sha256 = "9e6f57471ad7bf4545eba201c87f645774c12edb6a0801f06a320dc9b51f1fe5"
+    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+1/argp_standalone.v1.3.1.aarch64-linux-gnu.tar.gz"
+[[argp_standalone]]
+arch = "aarch64"
+git-tree-sha1 = "379b572f21d0cfb9ca1c17dd3b5c787c56c81e58"
 libc = "musl"
 os = "linux"
 
     [[argp_standalone.download]]
-    sha256 = "9b415d388eda255d6e877cf5cd9c8e9b052aad213256463c53abfebb93e7c064"
-    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+0/argp_standalone.v1.3.1.aarch64-linux-musl.tar.gz"
+    sha256 = "de20a6926db45ffd3a877980d4068adf4ec0001aa6e80a7bfec23c27d5d12d55"
+    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+1/argp_standalone.v1.3.1.aarch64-linux-musl.tar.gz"
+[[argp_standalone]]
+arch = "aarch64"
+git-tree-sha1 = "795d37203127d1f7ec3aa048df41168086eefb5e"
+os = "freebsd"
+
+    [[argp_standalone.download]]
+    sha256 = "913e2a3ca92d444543fd3442a7de392d6cd3732e84e77e22b88429a259952311"
+    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+1/argp_standalone.v1.3.1.aarch64-unknown-freebsd.tar.gz"
 [[argp_standalone]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "8d1c2d103042b48fc4be34187c92980600df5c28"
+git-tree-sha1 = "b04396213a1f0007b22526d4480d3181186d9404"
+libc = "glibc"
+os = "linux"
+
+    [[argp_standalone.download]]
+    sha256 = "d04510793955599e8d1c120c54cb4a7244a8c804ebd1ce6d5a6ab0fb049d3322"
+    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+1/argp_standalone.v1.3.1.armv6l-linux-gnueabihf.tar.gz"
+[[argp_standalone]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "e62b61820bb0efb77767e61d372c71cc6f063702"
 libc = "musl"
 os = "linux"
 
     [[argp_standalone.download]]
-    sha256 = "46ef3d26b800ed4866b804a952ab29a90ef247845a8fb3415e01bb737a6ddb4d"
-    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+0/argp_standalone.v1.3.1.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "a2f65c51e0e2a82e24e457583319b585a2cf0ebe163d5d27b6c1cc4c47323e5f"
+    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+1/argp_standalone.v1.3.1.armv6l-linux-musleabihf.tar.gz"
 [[argp_standalone]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "d45166075537b4773d5ba221fac47c40e4addaad"
+git-tree-sha1 = "f5503f28b183e5478f3885726a8d00f4e27f8539"
+libc = "glibc"
+os = "linux"
+
+    [[argp_standalone.download]]
+    sha256 = "6dd872dd47041a42fda29e285138d35e3073e58bf84f2abcac957188619126a2"
+    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+1/argp_standalone.v1.3.1.armv7l-linux-gnueabihf.tar.gz"
+[[argp_standalone]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e883c3fb82fb55e2afee961afd6ab950d17641b8"
 libc = "musl"
 os = "linux"
 
     [[argp_standalone.download]]
-    sha256 = "a5cd00df3bcd5ded54e9d896eead4e29a81ffa0cbcce3f44231fc961b7cd6742"
-    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+0/argp_standalone.v1.3.1.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "46b8f2d49ea60850dcff4683507b32244825f8f7773fd631c0a6a050664d9c47"
+    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+1/argp_standalone.v1.3.1.armv7l-linux-musleabihf.tar.gz"
 [[argp_standalone]]
 arch = "i686"
-git-tree-sha1 = "032dab3ddc7f41b3915db62931256c2553d00d03"
+git-tree-sha1 = "4d8955a9a9c4af3fecaca69e17774f1071bc6b7b"
+libc = "glibc"
+os = "linux"
+
+    [[argp_standalone.download]]
+    sha256 = "87d2a2f21bfc9f0c952136ec3e97a71b0bcb9cdaa875f8a7569e1179e80fe153"
+    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+1/argp_standalone.v1.3.1.i686-linux-gnu.tar.gz"
+[[argp_standalone]]
+arch = "i686"
+git-tree-sha1 = "67cf848a1ef2fc6ee2d8a1ac03727a78b7de5cbf"
 libc = "musl"
 os = "linux"
 
     [[argp_standalone.download]]
-    sha256 = "ad99bed436da8e015826d394e7eb430dcc0ec31b187267151d4105cefa6e1c75"
-    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+0/argp_standalone.v1.3.1.i686-linux-musl.tar.gz"
+    sha256 = "11f90d57430492f4c130e99ceef7372ab1b4605604a5b93ceb688d54038c68e9"
+    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+1/argp_standalone.v1.3.1.i686-linux-musl.tar.gz"
+[[argp_standalone]]
+arch = "powerpc64le"
+git-tree-sha1 = "62b2ab15bbaabd8350c5a47de8f1a5c566a0994a"
+libc = "glibc"
+os = "linux"
+
+    [[argp_standalone.download]]
+    sha256 = "347eefc3b77f669b1ac22da008dd735ae325cb2955acf288b1c904aedab46152"
+    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+1/argp_standalone.v1.3.1.powerpc64le-linux-gnu.tar.gz"
 [[argp_standalone]]
 arch = "x86_64"
-git-tree-sha1 = "ef4e7179d1aff41e15c49d6aad280f4e9eccc6b3"
+git-tree-sha1 = "6e634592dcbc2f73e5badb4a08851b1e956934cf"
+os = "macos"
+
+    [[argp_standalone.download]]
+    sha256 = "e12cef3e1d7fae166de0224a5e1e672aefb66c51fdc33155ac71ef677be0def6"
+    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+1/argp_standalone.v1.3.1.x86_64-apple-darwin.tar.gz"
+[[argp_standalone]]
+arch = "x86_64"
+git-tree-sha1 = "e7d41e1e3dcc97498638aefee1fa603845f628a1"
+libc = "glibc"
+os = "linux"
+
+    [[argp_standalone.download]]
+    sha256 = "71fc4df064534ee5ed18b2c297396593ce6992dc97abf24bf75837b93556e95e"
+    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+1/argp_standalone.v1.3.1.x86_64-linux-gnu.tar.gz"
+[[argp_standalone]]
+arch = "x86_64"
+git-tree-sha1 = "ebcbb65e310dc4e2c0e64d89f4ad04f511e026df"
 libc = "musl"
 os = "linux"
 
     [[argp_standalone.download]]
-    sha256 = "1ffddf9da5c18dd0693346b281aa83f36e52a90796e92f54a8dd6795ee29f73f"
-    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+0/argp_standalone.v1.3.1.x86_64-linux-musl.tar.gz"
+    sha256 = "89bc647d26bb9db470f45ad155b8e8af514bc16ff898e316ca952e2035f3ba14"
+    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+1/argp_standalone.v1.3.1.x86_64-linux-musl.tar.gz"
+[[argp_standalone]]
+arch = "x86_64"
+git-tree-sha1 = "93ec9c32ac5b784bf4ea4aeeed3a7ff3e0ebfa7e"
+os = "freebsd"
+
+    [[argp_standalone.download]]
+    sha256 = "22985400721f17ff56ad090730acf7a1cd5e73b68a883e083904008d8d5d7f10"
+    url = "https://github.com/JuliaBinaryWrappers/argp_standalone_jll.jl/releases/download/argp_standalone-v1.3.1+1/argp_standalone.v1.3.1.x86_64-unknown-freebsd.tar.gz"
